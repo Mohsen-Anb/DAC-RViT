@@ -1,0 +1,32 @@
+{
+  "image_size": 224,
+  "embed_dim": 300,
+  "num_heads": 10,
+  "num_layers": 4,
+  "ff_dim": 1200,
+  "dropout": 0.1,
+  "target_mode": "cossin",
+  "block_len": 1,
+  "train_frac": 0.7,
+  "val_frac": 0.15,
+  "data_fraction": 1.0,
+  "n_bins": 22,
+  "seed": 42,
+  "input_mode": "both",
+  "main_folder": "data/Extracted_Frames_Roll_X_Y_4_ViT",
+  "soft_top_k": 3,
+  "neighbor_overlap": 1,
+  "temporal_window": 5,
+  "numeric_mean": [
+    45.16303634643555,
+    35.570316314697266,
+    54.952369689941406,
+    34.53000259399414
+  ],
+  "numeric_std": [
+    19.406003952026367,
+    13.103590965270996,
+    20.876461029052734,
+    19.455202102661133
+  ]
+}
